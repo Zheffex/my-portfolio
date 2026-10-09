@@ -22,10 +22,15 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- Matrix falling code canvas background -->
+  <canvas id="matrix-canvas"></canvas>
 
   <!--
     - #MAIN
@@ -74,7 +79,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a  class="contact-link">johnrich@example.com</a>
+              <a class="contact-link">johnrich@example.com</a>
             </div>
 
           </li>
@@ -88,7 +93,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a  class="contact-link">0956 9900 816</a>
+              <a class="contact-link">0956 9900 816</a>
             </div>
 
           </li>
@@ -146,7 +151,7 @@
           </li>
 
           <li class="social-item">
-            <a href="https://www.instagram.com/mitch_.07/" class="social-link">
+            <a href="https://www.instagram.com/zhe.ffex/" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -215,11 +220,14 @@
 
         <section class="about-text">
           <p>
-            I'm a UI/UX Designer from the Philippines, specializing in web development. I create simple, beautiful, and user-friendly designs to make your website stand out.
+            I'm a UI/UX Designer from the Philippines, specializing in web development. I create simple, beautiful, and
+            user-friendly designs to make your website stand out.
           </p>
 
           <p>
-            I create websites that function smoothly and are easy for users, while also being aesthetically pleasing. I personalize your website, making it visually attractive and simple to navigate. My focus is to present your brand's message and identity in an innovative way. I've designed websites for numerous prominent companies.
+            I create websites that function smoothly and are easy for users, while also being aesthetically pleasing. I
+            personalize your website, making it visually attractive and simple to navigate. My focus is to present your
+            brand's message and identity in an innovative way. I've designed websites for numerous prominent companies.
           </p>
         </section>
 
@@ -304,81 +312,6 @@
         </section>
 
 
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Partnerships</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Migs</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Johnrich and I started as associates back in our first year, just two people navigating a new environment. Over time, we found common ground and became friends. Eventually, our connection deepened, and we became part of a close-knit group that shared many experiences.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jerome</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Johnrich and I were connected during our second year, initially perhaps over late-night coding sessions or troubleshooting network issues. That shared struggle and those "aha!" moments gradually built a real friendship. By the end of that semester, navigating complex algorithms and debugging together had made us surprisingly close.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mark anthony</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    We became Associates in our second year, and he not only taught me the fundamentals of XML and object-oriented programming concepts, but he also later showed me how to effectively use XML Layouts in Android Studio.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
         <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
@@ -454,7 +387,30 @@
               </a>
             </li>
 
-          
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-7-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-8-color.png" alt="client logo">
+              </a>
+            </li>
+
           </ul>
 
         </section>
@@ -494,7 +450,9 @@
               <span>2023 — 2024</span>
 
               <p class="timeline-text">
-                Having navigated the curriculum of the BSIT course, I possess experience within the Bachelor of Science in Information Technology field, particularly with a foundational understanding of programming concepts such as Python and user interface design using Figma for High-Fidelity Design.
+                Having navigated the curriculum of the BSIT course, I possess experience within the Bachelor of Science
+                in Information Technology field, particularly with a foundational understanding of programming concepts
+                such as Python and user interface design using Figma for High-Fidelity Design.
               </p>
 
             </li>
@@ -506,7 +464,13 @@
               <span>2017-2023</span>
 
               <p class="timeline-text">
-                I underwent secondary education, encompassing both Junior High School (JHS) and Senior High School (SHS). My JHS years laid the foundational knowledge across various subjects. Transitioning to SHS, I pursued the Science, Technology, Engineering, and Mathematics (STEM) track. This specialized curriculum in STEM provided me with in-depth learning in core science subjects like biology, chemistry, and physics, alongside advanced mathematics and an introduction to engineering principles. This focused STEM education aimed to equip me with a strong analytical and problem-solving skillset, preparing me for potential future studies or careers in related fields.
+                I underwent secondary education, encompassing both Junior High School (JHS) and Senior High School
+                (SHS). My JHS years laid the foundational knowledge across various subjects. Transitioning to SHS, I
+                pursued the Science, Technology, Engineering, and Mathematics (STEM) track. This specialized curriculum
+                in STEM provided me with in-depth learning in core science subjects like biology, chemistry, and
+                physics, alongside advanced mathematics and an introduction to engineering principles. This focused STEM
+                education aimed to equip me with a strong analytical and problem-solving skillset, preparing me for
+                potential future studies or careers in related fields.
               </p>
 
             </li>
@@ -518,7 +482,9 @@
               <span>2013 — 2017</span>
 
               <p class="timeline-text">
-                my education continued in Buenlag, Calasiao, Pangasinan. I entered Buenlag Elementary School in Grade 3 and remained there until 2017, completing the upper elementary grades. This period in Buenlag Elementary School formed a significant part of my foundational learning.
+                my education continued in Buenlag, Calasiao, Pangasinan. I entered Buenlag Elementary School in Grade 3
+                and remained there until 2017, completing the upper elementary grades. This period in Buenlag Elementary
+                School formed a significant part of my foundational learning.
               </p>
 
             </li>
@@ -530,7 +496,9 @@
               <span>2011 — 2013</span>
 
               <p class="timeline-text">
-                My elementary education involved a transition between two schools. From 2011 to 2013, I attended Mines Elementary School, where I completed my early primary years, likely Grades 1 and 2. Subsequently, in 2013
+                My elementary education involved a transition between two schools. From 2011 to 2013, I attended Mines
+                Elementary School, where I completed my early primary years, likely Grades 1 and 2. Subsequently, in
+                2013
               </p>
 
             </li>
@@ -558,7 +526,11 @@
               <span>2025 — Present</span>
 
               <p class="timeline-text">
-                I dedicated time to understanding the nuances of video editing in Adobe Premiere Pro, mastering techniques from basic cutting and transitions to more complex color correction, motion graphics (often utilizing Adobe After Effects), and audio mixing. Simultaneously, I honed my skills in photo editing using Adobe Photoshop and Lightroom, focusing on composition, color manipulation, retouching, and achieving a professional aesthetic.
+                I dedicated time to understanding the nuances of video editing in Adobe Premiere Pro, mastering
+                techniques from basic cutting and transitions to more complex color correction, motion graphics (often
+                utilizing Adobe After Effects), and audio mixing. Simultaneously, I honed my skills in photo editing
+                using Adobe Photoshop and Lightroom, focusing on composition, color manipulation, retouching, and
+                achieving a professional aesthetic.
               </p>
 
             </li>
@@ -570,7 +542,10 @@
               <span>2023 — 2024</span>
 
               <p class="timeline-text">
-                My process involves clear communication and defined terms. Initially, I discuss the scope of the work required, including the type of document or media, the length or duration, the specific editing needs (e.g., grammar, style, clarity, formatting, visual appeal), and the deadline. This ensures mutual understanding of the project expectations.
+                My process involves clear communication and defined terms. Initially, I discuss the scope of the work
+                required, including the type of document or media, the length or duration, the specific editing needs
+                (e.g., grammar, style, clarity, formatting, visual appeal), and the deadline. This ensures mutual
+                understanding of the project expectations.
               </p>
 
             </li>
@@ -677,6 +652,10 @@
               <button data-filter-btn>Web development</button>
             </li>
 
+            <li class="filter-item">
+              <button data-filter-btn>Game dev</button>
+            </li>
+
           </ul>
 
           <div class="filter-select-box">
@@ -709,6 +688,10 @@
                 <button data-select-item>Web development</button>
               </li>
 
+              <li class="select-item">
+                <button data-select-item>Game dev</button>
+              </li>
+
             </ul>
 
           </div>
@@ -726,7 +709,7 @@
                   <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">BITE SPOT</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -744,7 +727,7 @@
                   <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Quizora</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -762,7 +745,7 @@
                   <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">TECH HUB</h3>
 
                 <p class="project-category">Web design</p>
 
@@ -780,7 +763,7 @@
                   <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Stock Wise</h3>
 
                 <p class="project-category">Applications</p>
 
@@ -795,12 +778,12 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-5.png" alt="TUNDRA SCANS" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">TUNDRA SCANS</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Personal Project</p>
 
               </a>
             </li>
@@ -816,14 +799,14 @@
                   <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">CLARIFAI</h3>
 
                 <p class="project-category">Web design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="game dev">
               <a href="#">
 
                 <figure class="project-img">
@@ -831,12 +814,12 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/project-7.png" alt="Muddy Arcane" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">Muddy Arcane</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Game Dev</p>
 
               </a>
             </li>
@@ -849,17 +832,17 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="./assets/images/project-8.png" alt="task manager" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">TASTY TRENDS</h3>
 
                 <p class="project-category">Applications</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="game dev">
               <a href="#">
 
                 <figure class="project-img">
@@ -867,12 +850,12 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="Witch-Craft Anomalies" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">Witch-Craft Anomalies</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Game Dev</p>
 
               </a>
             </li>
@@ -1089,7 +1072,7 @@
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        
+
 
         <section class="contact-form">
 
@@ -1135,6 +1118,57 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Matrix background canvas animation -->
+  <script>
+    (function () {
+      var canvas = document.getElementById('matrix-canvas');
+      var ctx = canvas.getContext('2d');
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      resize();
+      window.addEventListener('resize', resize);
+
+      var chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789ABCDEF01ガギグゲゴザジズゼゾ';
+      var fontSize = 13;
+      var columns = Math.floor(canvas.width / fontSize);
+      var drops = [];
+      for (var i = 0; i < columns; i++) {
+        drops[i] = Math.random() * -100;
+      }
+
+      function draw() {
+        ctx.fillStyle = 'rgba(3, 7, 12, 0.04)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        for (var i = 0; i < drops.length; i++) {
+          var text = chars[Math.floor(Math.random() * chars.length)];
+          var brightness = Math.random();
+
+          if (brightness > 0.97) {
+            ctx.fillStyle = 'rgba(0, 255, 255, 0.9)';
+          } else if (brightness > 0.85) {
+            ctx.fillStyle = 'rgba(0, 200, 200, 0.6)';
+          } else {
+            ctx.fillStyle = 'rgba(0, 120, 120, 0.3)';
+          }
+
+          ctx.font = fontSize + 'px Share Tech Mono, monospace';
+          ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+          if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+            drops[i] = 0;
+          }
+          drops[i]++;
+        }
+      }
+
+      setInterval(draw, 50);
+    })();
+  </script>
 
 </body>
 
